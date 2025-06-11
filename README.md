@@ -93,12 +93,13 @@ Then move it to the folder with changed name `./models/mvtec_ae.ckpt`. The same 
 
 | Autoencoder        | Pretrained Model                                                                                 |
 |--------------------|--------------------------------------------------------------------------------------------------|
-| MVTec First Stage Autoencoder | [mvtecad_fs](https://drive.google.com/file/d/1vDfywjGqoWRHMxj-5fifujK29_XyHuCQ/view?usp=sharing) |
-| VisA First Stage Autoencoder  | [visa_fs](https://drive.google.com/file/d/1zycpAbWwIVodwTo0Bh1oK8xKliuTT3ul/view?usp=sharing)    |
+| MVTec First Stage Autoencoder | [mvtecad_fs](https://pan.baidu.com/s/1XtzNzz_SKAv4KQiFS3kY7A?pwd=mdu5) |
+| VisA First Stage Autoencoder  | [visa_fs](https://pan.baidu.com/s/1XtzNzz_SKAv4KQiFS3kY7A?pwd=mdu5)    |
+| PCB First Stage Autoencoder  | [pcb_fs](https://pan.baidu.com/s/1XtzNzz_SKAv4KQiFS3kY7A?pwd=mdu5)    |
 
 ## 4. Build the model
 - We use the pre-trianed stable diffusion v1.5, the finetuned autoencoders and the Semantic-Guided Network to build the full needed model for training.
-The stable diffusion v1.5 could be downloaded from ["v1-5-pruned.ckpt"](https://huggingface.co/runwayml/stable-diffusion-v1-5/tree/main). Move it under the folder `./models/v1-5-pruned.ckpt`. 
+The stable diffusion v1.5 could be downloaded from ["v1-5-pruned.ckpt"](https://pan.baidu.com/s/1XtzNzz_SKAv4KQiFS3kY7A?pwd=mdu5). Move it under the folder `./models/v1-5-pruned.ckpt`. 
 Then run the code to get the output model `./models/dsad.ckpt`.
 
 `python build_model.py`
